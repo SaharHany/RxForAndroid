@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/numBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="70dp"
+        android:text="Numbers"
+        app:layout_constraintBottom_toTopOf="@+id/namesBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/namesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:text="Names"
+        app:layout_constraintBottom_toTopOf="@+id/instantSearchActBtn"
+        app:layout_constraintEnd_toEndOf="@+id/numBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/numBtn" />
+
+    <Button
+        android:id="@+id/clickActBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:text="Click Activity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/instantSearchActBtn"
+        app:layout_constraintStart_toStartOf="@+id/instantSearchActBtn" />
+
+    <Button
+        android:id="@+id/instantSearchActBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:text="Instant Search "
+        app:layout_constraintBottom_toTopOf="@+id/clickActBtn"
+        app:layout_constraintEnd_toEndOf="@+id/namesBtn"
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toStartOf="@+id/namesBtn" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/btntext">
+
+    <Button
+        android:id="@+id/localSearchBtn"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="137dp"
+        android:text="Local Search"
+        android:textSize="12pt"
+        android:textColor="@color/btntext"
+        android:elevation="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/roundedbtntheme"/>
+
+    <Button
+        android:id="@+id/remoteSearchBtn"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="290dp"
+        android:text="Remote Search"
+        android:textSize="12pt"
+        android:textColor="@color/btntext"
+        android:background="@drawable/roundedbtntheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/localSearchBtn" />
+</android.support.constraint.ConstraintLayout>

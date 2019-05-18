@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">InstantSearchApp</string>
+    <string name="searchkey">Type Name or Phone or Email</string>
+</resources>
